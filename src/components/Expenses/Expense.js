@@ -1,9 +1,11 @@
+
 import Card from '../UI/Card';
 import './Expense.css';
 import ExpenseItem from "./ExpenseItem";
 function Expense(props) {
 
   return (
+    
     <Card className='expenses'>
     <ExpenseItem
       title={props.items[0].title}
