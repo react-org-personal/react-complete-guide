@@ -19,7 +19,6 @@ function Expense(props) {
           date={expense.date}
         />
       ))}
-    
   </Card>
   )
 }
